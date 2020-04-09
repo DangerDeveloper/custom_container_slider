@@ -21,7 +21,11 @@ class _CustumPageState extends State<CustumPage> {
     });
     return Scaffold(
       appBar: AppBar(
-        title: Text('Any thing'),
+        title: Text('FLUTTER UI',style: TextStyle(
+          color: Colors.grey,
+          fontSize: 20.0,
+        ),),
+        backgroundColor: Colors.white,
       ),
       body: Container(
         child: Column(
